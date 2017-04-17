@@ -2,16 +2,16 @@
 
 @font-face {
 	font-family: 'iconfont';
-  src: url('https://at.alicdn.com/t/font_pveudgy3v0ee9udi.eot');
-  src: url('https://at.alicdn.com/t/font_pveudgy3v0ee9udi.eot?#iefix') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_pveudgy3v0ee9udi.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_pveudgy3v0ee9udi.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_pveudgy3v0ee9udi.svg#iconfont') format('svg');
+	src: url('https://at.alicdn.com/t/font_pveudgy3v0ee9udi.eot');
+	src: url('https://at.alicdn.com/t/font_pveudgy3v0ee9udi.eot?#iefix') format('embedded-opentype'),
+	url('https://at.alicdn.com/t/font_pveudgy3v0ee9udi.woff') format('woff'),
+	url('https://at.alicdn.com/t/font_pveudgy3v0ee9udi.ttf') format('truetype'),
+	url('https://at.alicdn.com/t/font_pveudgy3v0ee9udi.svg#iconfont') format('svg');
 }
 
 @font-face {
 	font-family: 'thinfont-thin';
-src:url('thinfont-thin.ttf') format('truetype');
+	src:url('thinfont-thin.ttf') format('truetype');
 }
 
 .button,.button:after,.button:before {
@@ -439,9 +439,11 @@ src:url('thinfont-thin.ttf') format('truetype');
 
 	50% {
 		width: 100%;
+		height: 3px;
 	}
 
 	100% {
+		width: 100%;
 		height: 100%;
 	}
 }
@@ -640,7 +642,6 @@ src:url('thinfont-thin.ttf') format('truetype');
 		transform: rotateY(360deg);
 	}
 }
-
 @keyframes iconFlip {
 	0% {
 		transform: rotateY(0deg);
