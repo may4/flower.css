@@ -14,7 +14,7 @@
 最后你需要添加class名如下
 ```html
 <a class="button inLeft" href="#">BUTTON</a>
-<button class="button inUp"></button>
+<button class="button inUp">BUTTON</button>
 ```
 * `inLeft`
 * `inUp`
